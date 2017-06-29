@@ -29,6 +29,13 @@ You'll want to install modprobe.
 $ apt-get install modprobe
 ```
 
+If you want to add this as a cron job, you can use ```thermcron.sh``` (or see below) to run it as often as you want.
+
+
+```
+python /root/thermo.py >> /root/temp_log.csv
+```
+
 
 ## Deployment
 
@@ -40,7 +47,6 @@ $ apt-get install modprobe
 ## Contributing
 
 So far it's just me, but if you want to get in on this, give me a shoutout!
-## Versioning
 
 ## Authors
 
@@ -52,6 +58,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
