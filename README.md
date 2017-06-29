@@ -3,6 +3,10 @@
 Simple python script for commecting a DS18B20 temperature sensor with a Raspberry Pi. It can print either the temperature (configurable for Celcius or Farenheit) or the temperature and a timestamp.
 
 
+## This is still under construction. Tread lightly.
+
+
+
 ## Getting Started
 
 I followed this guide to set up the temperature sensor, if you have not already. It can be found here: 
@@ -12,9 +16,9 @@ I followed this guide to set up the temperature sensor, if you have not already.
 
 ### Prerequisites
 
-You will need: 
-	* a Rasperry Pi with SSH access
-	* a DS18B20 temperature sensor
+You will need:   
+* a Rasperry Pi with SSH access
+* a DS18B20 temperature sensor
 
 
 ### Installing
@@ -26,53 +30,21 @@ $ apt-get install modprobe
 ```
 
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+- Wired internet is usually more stable than a wifi dongle
 
 ## Built With
+* [Sublime Text](https://www.sublimetext.com/)
 
 ## Contributing
 
+So far it's just me, but if you want to get in on this, give me a shoutout!
 ## Versioning
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **David Sopkin**  - [dsopkin](https://github.com/dsopkin/)
 
 ## License
 
