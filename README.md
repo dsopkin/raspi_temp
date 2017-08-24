@@ -51,6 +51,8 @@ Change to the one that ends in ```28-xxx```
 
 then type ```cat 28-xxx``` to make sure it's collecting data.
 
+
+
 ## Deployment
 
 - Wired internet is usually more stable than a wifi dongle
@@ -76,5 +78,8 @@ So far it's just me, but if you want to get in on this, give me a shoutout!
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+
+## Issues
+
+Please feel free to report bugs and request features in the [issues](https://github.com/dsopkin/raspi_temp/issues) section.
 
