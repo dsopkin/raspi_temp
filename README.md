@@ -1,4 +1,6 @@
-# Raspberry Pi temperature sensor script [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Raspberry Pi temperature sensor script 
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Build Status](https://travis-ci.org/boennemann/badges.svg?branch=master)](https://travis-ci.org/boennemann/badges)
 
 Simple python script for commecting a DS18B20 temperature sensor to a Raspberry Pi. 
 It can print either the temperature (configurable for Celcius or Farenheit) or the temperature and a timestamp.
@@ -53,7 +55,7 @@ then type ```cat 28-xxx``` to make sure it's collecting data.
 
 
 
-## Deployment
+## Deployment Notes
 
 - Wired internet is usually more stable than a wifi dongle
 
@@ -69,7 +71,7 @@ python /root/thermo.py >> /root/temp_log.csv
 
 ## Contributing
 
-So far it's just me, but if you want to get in on this, give me a shoutout!
+If you want to get in on this, give me a shout!
 ## Authors
 
 * **David Sopkin**  - [dsopkin](https://github.com/dsopkin/)
