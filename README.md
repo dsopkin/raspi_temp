@@ -1,4 +1,4 @@
-# Raspberry Pi temperature sensor script
+# Raspberry Pi temperature sensor script [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 Simple python script for commecting a DS18B20 temperature sensor to a Raspberry Pi. 
 It can print either the temperature (configurable for Celcius or Farenheit) or the temperature and a timestamp.
