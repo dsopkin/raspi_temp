@@ -6,9 +6,10 @@ import datetime
 os.system('modprobe w1-gpio')
 os.system('modprobe w1-therm')
 
-temp_sensor='/sys/bus/w1/devices/<serial>/w1_slave'
+temp_sensor = '/sys/bus/w1/devices/<serial>/w1_slave'
 ts = time.time()
 st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
+
 
 def temp_raw():
 
@@ -32,15 +33,16 @@ def read_temp():
         temp_c = float(temp_string) / 1000.0
         temp_f = temp_c * 9.0 / 5.0 + 32.0
         return temp_f
-when 
+
+print(st + "," + str(read_temp()))
 # Uncomment to print just the temperature
 
-#while True:
+# while True:
 #    print(read_temp(0))
- #   time.sleep(1)
-  
+#   time.sleep(1)
+
 
 # Uncomment to print timestamp,temp
 
-#if True:
-#    print(st + "," + str(read_temp())) 
+# if True:
+#    print(st + "," + str(read_temp()))
