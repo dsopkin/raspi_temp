@@ -1,6 +1,7 @@
 # Raspberry Pi temperature sensor script 
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/dsopkin/raspi_temp.svg?columns=To%20Do,In%20Progress,Done&style=plastic)](https://waffle.io/dsopkin/raspi_temp)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Build Status](https://travis-ci.org/boennemann/badges.svg?branch=master)](https://travis-ci.org/boennemann/badges)
+[![Build Status](https://travis-ci.org/dsopkin/raspi_temp.svg?branch=master)](https://travis-ci.org/boennemann/badges)
 
 Simple python script for commecting a DS18B20 temperature sensor to a Raspberry Pi. 
 It can print either the temperature (configurable for Celcius or Farenheit) or the temperature and a timestamp.
@@ -72,6 +73,9 @@ python /root/thermo.py >> /root/temp_log.csv
 ## Contributing
 
 If you want to get in on this, give me a shout!
+
+* [waffle.io](https://waffle.io/dsopkin/raspi_temp)
+
 ## Authors
 
 * **David Sopkin**  - [dsopkin](https://github.com/dsopkin/)
