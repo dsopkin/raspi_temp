@@ -2,8 +2,6 @@ language: python
 python:
     - 2.7
     - 3.3
-    - 3.4
-    - 3.5
 notifications:
     email: false
 
@@ -41,10 +39,10 @@ script:
         if (( $num_errors_after < $num_errors_before )); then
             git commit -a -m "PEP-8 Fix"
             git config --global push.default simple # Push only to the current branch.  
-            # Make sure to make the output quiet, or else the API token will 
-            # leak!  This works because the API key can replace your password.
-            git push --quiet
-        fi
+            git push --quiet                        # Make sure to make the output quiet, or else the API token will
+        fi                                          # leak!  This works because the API key can replace your password.
+            
+        
     - cd "$TRAVIS_BUILD_DIR"
 
     # List the remaining errors - these will have to be fixed manually
