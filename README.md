@@ -1,6 +1,7 @@
 # Raspberry Pi temperature sensor script 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Build Status](https://travis-ci.org/dsopkin/raspi_temp.svg?branch=master)](https://travis-ci.org/boennemann/badges) [![Known Vulnerabilities](https://snyk.io/test/github/dsopkin/raspi_temp/badge.svg)](https://snyk.io/test/github/dsopkin/raspi_temp)
+[![Build Status](https://travis-ci.org/dsopkin/raspi_temp.svg?branch=master)](https://travis-ci.org/boennemann/badges) 
+[![Known Vulnerabilities](https://snyk.io/test/github/dsopkin/raspi_temp/badge.svg)](https://snyk.io/test/github/dsopkin/raspi_temp)
 
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/dsopkin/raspi_temp.svg?columns=To%20Do,In%20Progress,Done)](https://waffle.io/dsopkin/raspi_temp)
 
