@@ -24,10 +24,6 @@ I followed this guide to set up the temperature sensor, if you have not already.
 		
 [Adafruit Guide](http://www.danielhansen.net/2013/03/raspberry-pi-temperature-logging-using.html)
 
-this one too
-
-[Simple guide](http://www.danielhansen.net/2013/03/raspberry-pi-temperature-logging-using.html)
-
 ### Installing
 
 1. Make sure your Pi is updated, then install modprobe.
